@@ -75,6 +75,6 @@ io.on('connection', (socket) => {
         console.log('Un usuario se desconectó');
     });
 });
-server.listen(3000, () => {
-    console.log('Servidor corriendo en http://localhost:3000');
+server.listen(80, () => {
+    console.log('Servidor corriendo en http://localhost:80');
 });
